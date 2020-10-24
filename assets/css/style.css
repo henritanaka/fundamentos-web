@@ -1,0 +1,61 @@
+
+/*Estilo comum as páginas html*/
+body{
+    background-color: rgb(55, 36, 230);
+
+}
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 10pt;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: rgb(141, 141, 141);
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-300{
+    width: 300px;
+    height: 270px;
+}
+
+.tam-social{
+    width: 50px;
+    height: 50px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+
+/*Estilo somente para a página contato.html*/
+
+
+/*Estilo somente para a página contato.html*/
+
+.w-100{
+    width: 100%;
+}
